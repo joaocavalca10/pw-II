@@ -1,0 +1,52 @@
+body label,
+body input {
+  display: block;
+}
+
+.radio label,
+.radio input,
+.radio span {
+  display: inline-block;
+}
+
+form {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background: #f9f9f9;
+  border-radius: 8px;
+}
+
+input,
+select,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  width: auto;
+  padding: 10px 20px;
+  background-color: #0056b3;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #003d82;
+}
+
+
+@media (max-width: 768px) {
+
+  input,
+  select,
+  textarea {
+    width: 100%;
+  }
+}
